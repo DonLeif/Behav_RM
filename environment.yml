@@ -1,0 +1,11 @@
+name: behav_rm
+
+channels:
+- pyviz
+
+packages:
+- jupyter-panel-proxy
+- numpy
+- pandas
+- matplotlib
+- panel
