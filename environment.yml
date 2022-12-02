@@ -1,11 +1,14 @@
 name: behav_rm
 
 channels:
-- pyviz
-
-packages:
-- jupyter-panel-proxy
-- numpy
-- pandas
-- matplotlib
-- panel
+  - conda-forge
+  - pyviz
+dependencies:
+  - python
+  - pip
+  - jupyter-panel-proxy
+  - pip:
+    - numpy
+    - pandas
+    - matplotlib
+    - panel
